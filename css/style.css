@@ -6,3 +6,11 @@ body{
     color: #8c9494;
     font: 300 16px/1 "raleway", sans-serif;
 }
+
+.header{
+    display: block;
+    height: 110px;
+}
+.logo, .navigation{
+    display: inline-flex;
+}
