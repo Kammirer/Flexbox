@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    color: #616161;
+    font: 300 15px/1 "poppins", sans-serif;
+}
+a{
+    color: inherit;
+}
+a:hover{
+    text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6, p{
+    margin: 0;
+    font-weight: normal;
+}
+
+.header-block{
+    height: 75px;
+}
+.logo{
+    float: left;
+    line-height: 75px;
+}
+.nav-header{
+    float: right;
+    line-height: 75px;
+}
+.nav-header a+a{
+    margin-left: 22px;
+}
+.main-section{
+    background-color: #3f4049;
+    display: block;
+    height: 850px;
+}
+.main-content h1{
+    width: 820px;
+    font-size: 60px;
+    color: #fff;
+    font-family: "LibreBaskerville", sans-serif;
+}
