@@ -16,6 +16,15 @@ h1, h2, h3, h4, h5, h6, p{
     margin: 0;
     font-weight: normal;
 }
+.btn{
+    color: #fff;
+    text-transform: uppercase;
+    padding: 15px 40px;
+    transition: all 0.2s linear;
+}
+.btn:hover{
+    color: #fff;
+}
 
 .header-block{
     height: 75px;
@@ -34,11 +43,25 @@ h1, h2, h3, h4, h5, h6, p{
 .main-section{
     background-color: #3f4049;
     display: block;
-    height: 850px;
+    height: 775px;
+}
+.main-content{
+    width: 820px;
+    text-align: center;
+    margin: auto;
 }
 .main-content h1{
-    width: 820px;
     font-size: 60px;
     color: #fff;
     font-family: "LibreBaskerville", sans-serif;
+    margin-bottom: 50px;
+}
+.btn-orange{
+    border: 1px solid #fc5f45;
+    border-radius: 30px;
+}
+.btn-orange:hover{
+    border: 1px solid #fc5f45;
+    border-radius: 30px;
+    background-color: #fc5f45;
 }
