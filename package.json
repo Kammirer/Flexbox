@@ -1,0 +1,27 @@
+{
+  "name": "flexbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-tinypng": "^1.0.2",
+    "gulp.spritesmith": "^6.9.0",
+    "npm": "^6.4.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kammirer/Flexbox.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kammirer/Flexbox/issues"
+  },
+  "homepage": "https://github.com/Kammirer/Flexbox#readme"
+}
