@@ -16,21 +16,45 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 // HTML
 <i class="icon icon-home"></i>
 */
-.icon-clock {
+.icon-addev {
   background-image: url(../img/sprite.png);
   background-position: 0px 0px;
+  width: 55px;
+  height: 40px;
+}
+.icon-clock {
+  background-image: url(../img/sprite.png);
+  background-position: -110px 0px;
   width: 41px;
   height: 41px;
 }
 .icon-dollar {
   background-image: url(../img/sprite.png);
-  background-position: -41px 0px;
+  background-position: 0px -80px;
   width: 41px;
   height: 41px;
 }
 .icon-ok {
   background-image: url(../img/sprite.png);
-  background-position: 0px -41px;
+  background-position: -41px -80px;
   width: 41px;
   height: 41px;
+}
+.icon-photog {
+  background-image: url(../img/sprite.png);
+  background-position: -55px 0px;
+  width: 55px;
+  height: 40px;
+}
+.icon-ux {
+  background-image: url(../img/sprite.png);
+  background-position: 0px -40px;
+  width: 55px;
+  height: 40px;
+}
+.icon-web {
+  background-image: url(../img/sprite.png);
+  background-position: -55px -40px;
+  width: 55px;
+  height: 40px;
 }

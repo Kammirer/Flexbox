@@ -1,6 +1,8 @@
 *{
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
+    -webkit-transition: all 0.2s linear;
+    transition: all 0.2s linear;
 }
 
 body{
@@ -40,12 +42,13 @@ button:hover, button:active, button:focus{
     outline: none !important;
 }
 
+.icon {
+    display: inline-block;
+}
 .btn{
     color: #fff;
     text-transform: uppercase;
     padding: 15px 40px;
-    -webkit-transition: all 0.2s linear;
-    transition: all 0.2s linear;
 }
 .btn:hover{
     color: #fff;
@@ -53,12 +56,21 @@ button:hover, button:active, button:focus{
 .def-section{
     padding: 100px 0;
 }
+.def-section-gray{
+    padding: 100px 0;
+    background-color: #f7f7f7;
+}
 .title{
     display: block;
     font-family: "LibreBaskerville", sans-serif;
     font-size: 50px;
     font-weight: bold;
     margin-bottom: 40px;
+    color: #313131;
+}
+.img-icon{
+    display: block;
+    margin-bottom: 30px;
 }
 
 /* =====Start Header===== */
@@ -78,15 +90,15 @@ button:hover, button:active, button:focus{
 .nav-header a+a{
     margin-left: 22px;
 }
+.nav-header a:hover{
+    color: #fc5f45;
+}
 /* =====End Header===== */
 
 /* =====Start Main Section===== */
 .main-section{
     background-color: #3f4049;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    height: 550px;
+    padding: 75px 0px;
 }
 .main-content{
     width: 820px;
@@ -108,27 +120,43 @@ button:hover, button:active, button:focus{
     border-radius: 30px;
     background-color: #fc5f45;
 }
+/* .main-tabs{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 83px;
+}
+.main-section .main-tabs .icon{
+    margin-bottom: 32px;
+} */
 .main-tabs{
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-pack: distribute;
     justify-content: space-around;
-    margin-top: 83px;
+    margin-top: 70px;
 }
-.main-section .main-tabs .icon{
-    display: block;
-    margin-bottom: 32px;
+.tab-menu{
+    min-width: 200px;
 }
+
 /* =====End Main Section===== */
 
 /* =====Start About Us===== */
-.about-us-left{
-    display: block;
+.about-us-block{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; 
 }
 .about-us-left img{
-    -webkit-box-shadow: 10px inset #616161;
-    box-shadow: 10px inset #616161;
+    display: block;
+    border: 10px solid #a3a3a3;
 }
 .about-us-right{
     display: block;
@@ -142,4 +170,44 @@ button:hover, button:active, button:focus{
 }
 .about-us-right .about-us-content p+p{
     margin-top: 40px;
+}
+/* =====End About Us===== */
+
+/* =====Start Our Focus===== */
+.name-block{
+    position: relative;
+    text-align: center;
+}
+.title-min{
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    color: #313131;
+    margin-bottom: 35px;
+}
+.our-focus .row-our-focus{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+}
+.tab-block{
+    text-align: center;
+    padding: 30px;
+    margin-top: 50px;
+    width: 250px;
+    background-color: #fff;
+}
+.border1{
+    border-bottom: 3px solid #fc5f45;
+}
+.border2{
+    border-bottom: 3px solid #38c695;
+}
+.border3{
+    border-bottom: 3px solid #b27cf5;
+}
+.border4{
+    border-bottom: 3px solid #feb960;
 }
