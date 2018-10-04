@@ -60,6 +60,10 @@ button:hover, button:active, button:focus{
     padding: 100px 0;
     background-color: #f7f7f7;
 }
+.def-section-black{
+    padding: 100px 0;
+    background-color: #3f4049;
+}
 .title{
     display: block;
     font-family: "LibreBaskerville", sans-serif;
@@ -71,6 +75,9 @@ button:hover, button:active, button:focus{
 .img-icon{
     display: block;
     margin-bottom: 30px;
+}
+p{
+    line-height: 1.8em;
 }
 
 /* =====Start Header===== */
@@ -156,9 +163,8 @@ button:hover, button:active, button:focus{
     background-color: #fff;
     border-bottom: 2px solid #fc5f45;
     margin-left: -10%;
-}
-.about-us-right .about-us-content p{
-    line-height: 1.8em;
+    -webkit-box-shadow: 1px -1px 15px #a3a3a3;
+    box-shadow: 1px -1px 15px #a3a3a3;
 }
 .about-us-right .about-us-content p+p{
     margin-top: 40px;
@@ -186,10 +192,12 @@ button:hover, button:active, button:focus{
 }
 .tab-block{
     text-align: center;
-    padding: 30px;
+    padding: 50px 30px;
     margin-top: 50px;
     width: 250px;
     background-color: #fff;
+    -webkit-box-shadow: 0 0 20px #a3a3a3;
+    box-shadow: 0 0 20px #a3a3a3;
 }
 .border1{
     border-bottom: 3px solid #fc5f45;
@@ -204,3 +212,46 @@ button:hover, button:active, button:focus{
     border-bottom: 3px solid #feb960;
 }
 /* =====End Our Focus===== */
+
+/* =====Start Play Video===== */
+.pv-content{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    color: #fff;
+}
+.pv-title{
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+.pv-text{
+    margin-top: 30px;
+}
+/* =====End Play Video===== */
+
+/* =====Start Portfolio===== */
+.content-potrfolio{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.block-portf{
+    display: block;
+    width: 33%;
+    margin: 10px 0;
+}
