@@ -79,6 +79,30 @@ button:hover, button:active, button:focus{
 p{
     line-height: 1.8em;
 }
+.color1{
+    color: #fc5f45;
+}
+.color2{
+    color: #38c695;
+}
+.color3{
+    color: #b27cf5;
+}
+.color4{
+    color: #feb960;
+}
+.border1{
+    border-bottom: 3px solid #fc5f45;
+}
+.border2{
+    border-bottom: 3px solid #38c695;
+}
+.border3{
+    border-bottom: 3px solid #b27cf5;
+}
+.border4{
+    border-bottom: 3px solid #feb960;
+}
 
 /* =====Start Header===== */
 .header-block{
@@ -199,18 +223,7 @@ p{
     -webkit-box-shadow: 0 0 20px #a3a3a3;
     box-shadow: 0 0 20px #a3a3a3;
 }
-.border1{
-    border-bottom: 3px solid #fc5f45;
-}
-.border2{
-    border-bottom: 3px solid #38c695;
-}
-.border3{
-    border-bottom: 3px solid #b27cf5;
-}
-.border4{
-    border-bottom: 3px solid #feb960;
-}
+
 /* =====End Our Focus===== */
 
 /* =====Start Play Video===== */
@@ -254,4 +267,35 @@ p{
     display: block;
     width: 31%;
     margin: 5px;
+}
+
+/* =====Start Our Team===== */
+.our-team .our-team-tab .nav-tabs{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.our-team .our-team-tab .nav-tabs a{
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+    border: none;
+}
+.our-team .our-team-tab .nav-tabs>li{
+    width: 20%;
+    text-align: center;
+    background-color: #fff;
+}
+.our-team .our-team-tab .nav>li>a:focus, .nav>li>a:hover{
+    background-color: #fff;
+}
+.team-photo{
+    display: block;
+    max-width: 250px;
+    border: 5px solid #fff;
 }
