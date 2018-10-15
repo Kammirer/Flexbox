@@ -235,11 +235,13 @@ p{
     width: 31%;
     margin: 5px;
 }
+/* =====End Portfolio===== */
 
 /* =====Start Our Team===== */
 .our-team .our-team-tab .nav-tabs{
-    display: flex;
-    justify-content: space-between;
+    /* display: flex;
+    justify-content: space-between; */
+    border: 0;
 }
 .our-team .our-team-tab .nav-tabs a{
     padding: 0;
@@ -250,7 +252,7 @@ p{
     border: none;
 }
 .our-team .our-team-tab .nav-tabs>li{
-    width: 20%;
+    width: 25%;
     text-align: center;
     background-color: #fff;
 }
@@ -259,6 +261,10 @@ p{
 }
 .team-photo{
     display: block;
-    max-width: 250px;
     border: 5px solid #fff;
+}
+.tab-content{
+    margin-top: 50px;
+    padding: 70px;
+    background-color: #fff;
 }

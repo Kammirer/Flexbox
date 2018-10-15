@@ -40,6 +40,12 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
   width: 41px;
   height: 41px;
 }
+.icon-our-team {
+  background-image: url(../img/sprite.png);
+  background-position: -135px -82px;
+  width: 36px;
+  height: 36px;
+}
 .icon-photog {
   background-image: url(../img/sprite.png);
   background-position: -80px -40px;
