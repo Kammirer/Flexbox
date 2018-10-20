@@ -91,17 +91,41 @@ p{
 .color4{
     color: #feb960;
 }
+.border-bot1{
+    border-bottom: 2px solid #fc5f45;
+}
+.border-bot2{
+    border-bottom: 2px solid #38c695;
+}
+.border-bot3{
+    border-bottom: 2px solid #b27cf5;
+}
+.border-bot4{
+    border-bottom: 2px solid #feb960;
+}
 .border1{
-    border-bottom: 3px solid #fc5f45;
+    border: 2px solid #fc5f45;
 }
 .border2{
-    border-bottom: 3px solid #38c695;
+    border: 2px solid #38c695;
 }
 .border3{
-    border-bottom: 3px solid #b27cf5;
+    border: 2px solid #b27cf5;
 }
 .border4{
-    border-bottom: 3px solid #feb960;
+    border: 2px solid #feb960;
+}
+.bg-color1{
+    background-color: #fc5f45;
+}
+.bg-color2{
+    background-color: #38c695;
+}
+.bg-color3{
+    background-color: #b27cf5;
+}
+.bg-color4{
+    background-color: #feb960;
 }
 
 /* =====Start Header===== */
@@ -272,8 +296,12 @@ p{
 
 /* =====Start Our Team===== */
 .our-team .our-team-tab .nav-tabs{
-    /* display: flex;
-    justify-content: space-between; */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
     border: 0;
 }
 .our-team .our-team-tab .nav-tabs a{
@@ -285,7 +313,7 @@ p{
     border: none;
 }
 .our-team .our-team-tab .nav-tabs>li{
-    width: 25%;
+    width: 23%;
     text-align: center;
     background-color: #fff;
 }
@@ -300,4 +328,47 @@ p{
     margin-top: 50px;
     padding: 70px;
     background-color: #fff;
+}
+/* ====End Our Team==== */
+
+/* ====Start Progress==== */
+.progress-block{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center;
+}
+.outset{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 15px;
+    height: 15px;
+    border-radius: 10px;
+    text-align: center;
+    margin: auto;
+}
+.inset{
+    display: block;
+    width: 7px;
+    height: 7px;
+    text-align: center;
+    margin: auto;
+    border-radius: 10px;
+}
+.prog-num{
+    display: block;
+    color: #fff;
+    font-size: 18px;
+    margin: 20px 0;
+}
+.prog-name{
+    display: block;
+    margin-bottom: 20px;
+}
+.progress-form .progress-block div+div {
+    margin-left: 50px;
 }
