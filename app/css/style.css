@@ -72,6 +72,13 @@ button:hover, button:active, button:focus{
     margin-bottom: 40px;
     color: #313131;
 }
+.title-min{
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    color: #313131;
+    margin-bottom: 35px;
+}
 .img-icon{
     display: block;
     margin-bottom: 30px;
@@ -223,13 +230,7 @@ p{
 .name-block{
     position: relative;
     text-align: center;
-}
-.title-min{
-    display: block;
-    font-size: 20px;
-    font-weight: bold;
-    color: #313131;
-    margin-bottom: 35px;
+    margin-bottom: 50px;
 }
 .our-focus .row-our-focus{
     display: -webkit-box;
@@ -241,7 +242,6 @@ p{
 .tab-block{
     text-align: center;
     padding: 50px 30px;
-    margin-top: 50px;
     width: 250px;
     background-color: #fff;
     -webkit-box-shadow: 0 0 20px #a3a3a3;
@@ -285,7 +285,6 @@ p{
     flex-wrap: wrap;
     -ms-flex-pack: distribute;
     justify-content: space-around;
-    margin-top: 50px;
 }
 .block-portf{
     display: block;
@@ -371,4 +370,53 @@ p{
 }
 .progress-form .progress-block div+div {
     margin-left: 50px;
+}
+/* ====End Progress==== */
+
+/* ====Start Work Steps==== */
+.steps-block{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.text-step{
+    display: block;
+    width: 460px;
+    padding: 60px 60px 60px 100px;
+    position: absolute;
+    background-color: #fff;
+    -webkit-box-shadow: 0 0 20px #a3a3a3;
+    box-shadow: 0 0 20px #a3a3a3;
+}
+.num-step{
+    position: absolute;
+    margin-left: -75px;
+    margin-top: -35px;
+    font-size: 40px;
+    color: #bbb;
+}
+.num-step::after{
+    content: "";
+    border-bottom: 1px solid #bbb;
+    display: block;
+    width: 90px;
+    margin-top: -10px;
+    margin-left: -6px;
+    -webkit-transform: rotate(-30deg);
+    transform: rotate(-30deg);
+}
+.text-step-left{
+    margin-left: -20%;
+    margin-top: -2%;
+}
+.text-step-right{
+    margin-left: 27%;
+    margin-top: -2%;
 }
