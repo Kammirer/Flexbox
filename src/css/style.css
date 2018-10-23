@@ -2,7 +2,6 @@
     box-sizing: border-box;
     transition: all 0.2s linear;
 }
-
 body{
     margin: 0;
     color: #616161;
@@ -108,6 +107,18 @@ p{
 .border-bot4{
     border-bottom: 2px solid #feb960;
 }
+.border-top1{
+    border-top: 2px solid #fc5f45;
+}
+.border-top2{
+    border-top: 2px solid #38c695;
+}
+.border-top3{
+    border-top: 2px solid #b27cf5;
+}
+.border-top4{
+    border-top: 2px solid #feb960;
+}
 .border1{
     border: 2px solid #fc5f45;
 }
@@ -132,6 +143,40 @@ p{
 .bg-color4{
     background-color: #feb960;
 }
+.btn-2{
+    border: 1px solid #32c695;
+    border-radius: 30px;
+    color: #32c695;
+}
+.btn-2:hover{
+    color: #fff;
+    border: 1px solid #38c695;
+    border-radius: 30px;
+    background-color: #38c695;
+}
+.btn-1{
+    border: 1px solid #fc5f45;
+    border-radius: 30px;
+    color: #fc5f45;
+}
+.btn-1:hover{
+    color: #fff;
+    border: 1px solid #fc5f45;
+    border-radius: 30px;
+    background-color: #fc5f45;
+}
+.btn-3{
+    border: 1px solid #b27cf5;
+    border-radius: 30px;
+    color: #b27cf5;
+}
+.btn-3:hover{
+    color: #fff;
+    border: 1px solid #b27cf5;
+    border-radius: 30px;
+    background-color: #b27cf5;
+}
+
 
 /* =====Start Header===== */
 .header-block{
@@ -166,15 +211,6 @@ p{
     color: #fff;
     font-family: "LibreBaskerville", sans-serif;
     margin-bottom: 50px;
-}
-.btn-orange{
-    border: 1px solid #fc5f45;
-    border-radius: 30px;
-}
-.btn-orange:hover{
-    border: 1px solid #fc5f45;
-    border-radius: 30px;
-    background-color: #fc5f45;
 }
 .main-tabs{
     display: flex;
@@ -367,4 +403,45 @@ p{
 .text-step-right{
     margin-left: 27%;
     margin-top: -2%;
+}
+/* ====End Work Steps==== */
+/* ====Start Pricing Table==== */
+.pricing-table-content{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.pricing-block{
+    text-align: center;
+    padding: 50px 30px;
+    width: 300px;
+    background-color: #fff;
+    box-shadow: 0 0 20px #a3a3a3;
+}
+.pricing-table-content div+div{
+    margin-left: 30px;
+}
+.outset-big{
+    display: flex;
+    width: 110px;
+    height: 110px;
+    border-radius: 60px;
+    text-align: center;
+    margin: auto;
+}
+.inset-big{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    border-radius: 60px;
+    color: #fff;
+}
+.inset-big span{
+    font-size: 25px;
+}
+.inset-big p{
+    font-size: 13px;
 }
