@@ -18,7 +18,7 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 */
 .icon-addev {
   background-image: url(../img/sprite.png);
-  background-position: -55px -128px;
+  background-position: -55px -177px;
   width: 55px;
   height: 40px;
 }
@@ -30,49 +30,49 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 }
 .icon-clients {
   background-image: url(../img/sprite.png);
-  background-position: 0px -80px;
+  background-position: -51px -80px;
   width: 51px;
   height: 48px;
 }
 .icon-clock {
   background-image: url(../img/sprite.png);
-  background-position: -182px -122px;
+  background-position: -231px -41px;
   width: 41px;
   height: 41px;
 }
 .icon-diagramma {
   background-image: url(../img/sprite.png);
-  background-position: -51px -80px;
+  background-position: -80px 0px;
   width: 51px;
   height: 48px;
 }
 .icon-dollar {
   background-image: url(../img/sprite.png);
-  background-position: -182px -81px;
+  background-position: -231px 0px;
   width: 41px;
   height: 41px;
 }
 .icon-heart {
   background-image: url(../img/sprite.png);
-  background-position: -80px 0px;
+  background-position: 0px -80px;
   width: 51px;
   height: 48px;
 }
 .icon-ok {
   background-image: url(../img/sprite.png);
-  background-position: -182px -40px;
+  background-position: -182px -98px;
   width: 41px;
   height: 41px;
 }
 .icon-our-team {
   background-image: url(../img/sprite.png);
-  background-position: -131px -48px;
+  background-position: -231px -82px;
   width: 36px;
   height: 36px;
 }
 .icon-photog {
   background-image: url(../img/sprite.png);
-  background-position: -110px -128px;
+  background-position: 0px -177px;
   width: 55px;
   height: 40px;
 }
@@ -82,15 +82,51 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
   width: 80px;
   height: 80px;
 }
-.icon-ux {
+.icon-select1 {
+  background-image: url(../img/sprite.png);
+  background-position: -182px 0px;
+  width: 49px;
+  height: 49px;
+}
+.icon-select2 {
+  background-image: url(../img/sprite.png);
+  background-position: -182px -49px;
+  width: 49px;
+  height: 49px;
+}
+.icon-select3 {
+  background-image: url(../img/sprite.png);
+  background-position: -49px -128px;
+  width: 49px;
+  height: 49px;
+}
+.icon-select4 {
+  background-image: url(../img/sprite.png);
+  background-position: -131px -48px;
+  width: 49px;
+  height: 49px;
+}
+.icon-select5 {
+  background-image: url(../img/sprite.png);
+  background-position: -98px -128px;
+  width: 49px;
+  height: 49px;
+}
+.icon-select6 {
   background-image: url(../img/sprite.png);
   background-position: 0px -128px;
+  width: 49px;
+  height: 49px;
+}
+.icon-ux {
+  background-image: url(../img/sprite.png);
+  background-position: -110px -177px;
   width: 55px;
   height: 40px;
 }
 .icon-web {
   background-image: url(../img/sprite.png);
-  background-position: -182px 0px;
+  background-position: -165px -177px;
   width: 55px;
   height: 40px;
 }

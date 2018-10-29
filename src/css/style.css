@@ -178,7 +178,7 @@ p{
 }
 
 
-/* =====Start Header===== */
+/* Start Header */
 .header-block{
     height: 75px;
     display: flex;
@@ -194,9 +194,9 @@ p{
 .nav-header a:hover{
     color: #fc5f45;
 }
-/* =====End Header===== */
+/* End Header */
 
-/* =====Start Main Section===== */
+/* Start Main Section */
 .main-section{
     background-color: #3f4049;
     padding: 75px 0px;
@@ -221,9 +221,9 @@ p{
     min-width: 200px;
 }
 
-/* =====End Main Section===== */
+/* End Main Section */
 
-/* =====Start About Us===== */
+/* Start About Us */
 .about-us-block{
     display: flex;
     justify-content: center;
@@ -244,9 +244,9 @@ p{
 .about-us-right .about-us-content p+p{
     margin-top: 40px;
 }
-/* =====End About Us===== */
+/* End About Us */
 
-/* =====Start Our Focus===== */
+/* Start Our Focus */
 .name-block{
     position: relative;
     text-align: center;
@@ -264,9 +264,9 @@ p{
     box-shadow: 0 0 20px #a3a3a3;
 }
 
-/* =====End Our Focus===== */
+/* End Our Focus */
 
-/* =====Start Play Video===== */
+/* Start Play Video */
 .pv-content{
     display: flex;
     justify-content: center;
@@ -281,22 +281,22 @@ p{
 .pv-text{
     margin-top: 30px;
 }
-/* =====End Play Video===== */
+/* End Play Video */
 
-/* =====Start Portfolio===== */
-.content-potrfolio{
+/* Start Portfolio */
+.content-tables{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
-.block-portf{
+.block-33{
     display: block;
     width: 31%;
     margin: 5px;
 }
-/* =====End Portfolio===== */
+/* End Portfolio */
 
-/* =====Start Our Team===== */
+/* Start Our Team */
 .our-team .our-team-tab .nav-tabs{
     display: flex;
     justify-content: space-between;
@@ -327,9 +327,9 @@ p{
     padding: 70px;
     background-color: #fff;
 }
-/* ====End Our Team==== */
+/* End Our Team */
 
-/* ====Start Progress==== */
+/* Start Progress */
 .progress-block{
     display: flex;
     justify-content: center;
@@ -364,9 +364,9 @@ p{
 .progress-form .progress-block div+div {
     margin-left: 50px;
 }
-/* ====End Progress==== */
+/* End Progress */
 
-/* ====Start Work Steps==== */
+/* Start Work Steps */
 .steps-block{
     display: flex;
     flex-direction: column;
@@ -404,8 +404,9 @@ p{
     margin-left: 27%;
     margin-top: -2%;
 }
-/* ====End Work Steps==== */
-/* ====Start Pricing Table==== */
+/* End Work Steps */
+
+/* Start Pricing Table */
 .pricing-table-content{
     display: flex;
     justify-content: center;
@@ -453,8 +454,34 @@ p{
 .pricing-info span+span{
     margin-top: 20px;
 }
-/* ====End Pricing Table==== */
-/* ====Start Testimonial==== */
+/* End Pricing Table */
+
+/* Start Testimonial */
 .testimonials .name-block, .testimonials .name-block .title{
     color: #fff;
 }
+/* End Testimonial */
+
+/* Start Why Select Us */
+.select-block-info{
+    margin-bottom: 50px;
+}
+.top-block{
+    display: flex;
+    margin-bottom: 10px;
+}
+.top-block span{
+    margin-left: 10px;
+    line-height: 1.5;
+}
+.info-button{
+    display: block;
+    text-align: center;
+    margin-top: 50px;
+}
+.info-button span{
+    font-size: 25px;
+    margin-right: 20px;
+    vertical-align: middle;
+}
+/* Why Select Us */
