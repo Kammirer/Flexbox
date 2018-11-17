@@ -55,7 +55,7 @@ gulp.task('tinypng', function () {
 gulp.task('watch', ['autoprefixer', 'sprite'], function () {
     gulp.watch('src/css/*css', ['autoprefixer']);
     gulp.watch('src/sprite/*.png', ['sprite']);
-    gulp.watch('src/img/**.*', ['tinypng']);
+    gulp.watch('src/img/**/*', ['tinypng']);
 });
 
 // запуск по слову gulp
